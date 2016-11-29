@@ -1,0 +1,208 @@
+ <html>
+
+    <head>
+      <title>fontbook</title>
+      <style>
+              #heading {
+          height: 50px;
+          width: 1325px;
+          margin: 10px;
+          padding: 10px;
+          background-color: #00E0ff;
+          font-family: futura;
+        	text-decoration: bold;
+    			color: navy;
+          text-align: center;
+          -webkit-border-radius: 20px;
+          -moz-border-radius: 20px;
+          border-radius: 20px;
+        }
+        #navbar {
+          height: 100px;
+          width: 1325px;
+          padding: 10px; 
+          margin: 10px;
+          background-color: yellow;
+					-webkit-border-radius: 40px;
+          -moz-border-radius: 40px;
+          border-radius: 40px;
+        }
+        #sserif {
+          height: 100px;
+          width: 150px;
+          -webkit-border-radius: 45;
+  				-moz-border-radius: 45;
+  				border-radius: 45px;
+  				font-family: arial;
+  				color: black;
+  				font-size: 20px;
+          float: left;
+          text-align: center;
+  				background-color: transparent;
+  				padding: 10px 20px;
+          margin: 2px;
+  				border: solid #27f2c3 1px;
+  				text-decoration: none;
+          -webkit-transition: all 0.3s ease 0s;
+          -moz-transition: all 0.3s ease 0s;
+          transition: all 0.3s ease 0s;
+        }
+				#sserif:hover {
+  				background-color: rgb(0,255,125);
+          color: white;
+				}
+        #serif {
+          height: 100px;
+          width: 150px;
+          -webkit-border-radius: 45;
+  				-moz-border-radius: 45;
+  				border-radius: 45px;
+  				font-family: serif;
+  				color: black;
+  				font-size: 20px;
+          float: left;
+          text-align: center;
+  				background-color: transparent;
+  				padding: 10px 20px;
+          margin: 2px;
+  				border: solid #27f2c3 1px;
+  				text-decoration: none;
+          -webkit-transition: all 0.3s ease 0s;
+          -moz-transition: all 0.3s ease 0s;
+          transition: all 0.3s ease 0s;
+        }
+				#serif:hover {
+  				background-color: rgb(0,255,125);
+          color: white;
+				}
+        #monospace {
+          height: 100px;
+          width: 150px;
+          -webkit-border-radius: 45;
+  				-moz-border-radius: 45;
+  				border-radius: 45px;
+  				font-family: monospace;
+  				color: black;
+  				font-size: 20px;
+          float: left;
+          text-align: center;
+  				background-color: transparent;
+  				padding: 10px 20px;
+          margin: 2px;
+  				border: solid #27f2c3 1px;
+  				text-decoration: none;
+          -webkit-transition: all 0.3s ease 0s;
+          -moz-transition: all 0.3s ease 0s;
+          transition: all 0.3s ease 0s;
+        }
+				#monospace:hover {
+  				background-color: rgb(0,255,125);
+          color: white;
+				}
+        #fantasy {
+          height: 100px;
+          width: 150px;
+          -webkit-border-radius: 45;
+  				-moz-border-radius: 45;
+  				border-radius: 45px;
+  				font-family: fantasy;
+  				color: black;
+  				font-size: 20px;
+          float: left;
+          text-align: center;
+  				background-color: transparent;
+  				padding: 10px 20px;
+          margin: 2px;
+  				border: solid #27f2c3 1px;
+  				text-decoration: none;
+          -webkit-transition: all 0.3s ease 0s;
+          -moz-transition: all 0.3s ease 0s;
+          transition: all 0.3s ease 0s;
+        }
+				#fantasy:hover {
+  				background-color: rgb(0,255,125);
+          color: white;
+				}
+        #main-content {
+          height: 2000px;
+          width: 1325px;
+          background-color: rgb(0,230,150);
+          font-family: comic sans ms;
+          text-align: center;
+          padding; 10px;
+          margin: 10px;
+          -webkit-border-radius: 40px;
+          -moz-border-radius: 40px;
+          border-radius: 40px;
+        }
+        #updates {
+          height: 100px;
+          width: 200px;
+          background-color: pink;
+          float: left;
+          margin: 10px;
+					-webkit-border-radius: 15px 40px 40px;
+          -moz-border-radius: 15px 40px 40px;
+          border-radius: 15px 40px 40px;
+          font-family: monospace;
+        }
+        #footer {
+        	height: 50px;
+          width: 1190px;
+          margin: 10px;
+          padding: 10px;
+          background-color: orange;
+          font-family: serif;
+        	text-decoration: bold;
+    			color: indigo;
+          text-align: center;
+          -webkit-border-radius: 20px;
+          -moz-border-radius: 20px;
+          border-radius: 20px;
+        }
+        #compat {
+          height: 100px;
+          width: 100px;
+          margin: 10px;
+          padding: 10px;
+          background-color: indigo;
+          text-align: center; 
+          float: left;
+        }
+      </style>
+    </head>
+    <body>
+      <div id="heading"> 
+        <h1>fontbook</h1>
+      </div>
+      <div id="navbar"> 
+        <a href="">
+          <button  id="sserif">
+            <h5>sans-serif</h5>
+          </button>
+        </a>
+         <a href="serif">
+          <button  id="serif">
+            <h5>Serif</h5>
+          </button>
+        </a>        
+        <a href="monospace">
+          <button  id="monospace">
+            <h5>monospace</h5>
+          </button>
+        </a>
+        <a href="fantasy">
+          <button  id="fantasy">
+            <h5>Fantasy</h5>
+          </button>
+        </a>
+      </div>
+      <div id="main-content">
+        <div id="updates"><h5>Updates</h5><p>1.0 - Latest - Site launch and first fonts</p></div>
+      </div>
+      <div id="footer">
+        <h2>Version: 1.0</h2>
+      </div>
+    </body>
+    
+</html>
